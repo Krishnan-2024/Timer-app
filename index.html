@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Timer App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="head">Pomodoro Timer</h1>
+    <!-- Timer Display -->
+    <div class="timer-display">
+      <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+    </div>
+
+    <!-- Control Buttons -->
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="pomodoro">Reset</button>
+      <button id="short-break">Short Break</button>
+      <button id="long-break">Long Break</button>  
+    </div>
+  </div>
+
+  <!-- Audio for Alert -->
+  <audio id="alarm" src="alarm.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
